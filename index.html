@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="sect">
+        <div id="main-page">
+            <div id="writing">
+                <h1>Stay Updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly <br> updates on:</p>
+                <ul id="checkbox">
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!</li>
+                </ul>
+                <div id="form">
+                    <form action="text" id="text">
+                        <div id="together">
+                            <label for="email">Email address</label>
+                            <div id="error-message" style="color: red; display: none;">
+                                Valid email required
+                            </div>
+                        </div>
+                        <input type="text" id="email" placeholder="email@company.com" name="email">
+                    </form>
+                </div>
+                <div id="btn">
+                    <button onclick="errorMessage()">Subscribe to monthly newsletter</button>
+                </div>
+            </div>
+            <div id="picture">
+                <img src="images/illustration-sign-up-desktop.svg" alt="images">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
